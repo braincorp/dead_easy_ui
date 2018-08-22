@@ -3,4 +3,4 @@
 set -e
 
 # -Qwarn catches warnings about integer division
-time python -Qwarn -m pytest -n 8 --boxed --timeout=1200 --junitxml=test_unit_results.xml
+time python -Qwarn -m pytest -n 2 --timeout=1200 --junitxml=test_unit_results.xml
