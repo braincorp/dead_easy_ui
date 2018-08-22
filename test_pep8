@@ -1,0 +1,4 @@
+#!/bin/bash
+source use_repo.sh
+
+py.test --junitxml=test_pep8_results.xml --pep8 -m pep8 -n 8 $1
