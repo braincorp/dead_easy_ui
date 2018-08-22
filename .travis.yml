@@ -2,7 +2,7 @@ language: python
 python:
  - '2.7'
 script:
- - test_pep8
- - test_pylint
- - test_unit
- 
+ - ./test_pep8
+ - ./test_pylint
+ - ./test_unit
+
